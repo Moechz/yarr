@@ -1,0 +1,195 @@
+# ===========================================================================
+# Multilingual file for the TOS 7 Docker application "yarrdocker".
+# File name MUST be: <appid>.lang.  23-language superset (14 required by TOS).
+# The App Center picks the text matching the user's device language;
+# untranslated nodes fall back to English, which the official guide allows.
+# Fields: name (app title), auth (upstream author), descript (up to 512
+# chars), release_note, important (up to 512 chars).
+# Translations come from tosapp.json "translations"; run
+#   tosdocker lang <app>          to re-render this file
+#   tosdocker translate <app>     to see what still needs translating
+# ===========================================================================
+[en-us]
+name         = "Yarr"
+auth         = "nkanaev"
+version      = "@@VERSION@@"
+descript     = "Yarr is a single-binary feed reader with a clean web UI: subscribe to RSS/Atom feeds, read them in a three-pane view, star and search items, and keep everything in one local SQLite database. It is tiny, needs no database server and stores nothing outside the application data folder."
+release_note = "1. First release: Yarr 2.9 from Docker Hub as a non-root container. Lightweight RSS/Atom reader with local SQLite storage."
+important    = "Requires DockerEngine (installed automatically if missing). The UI listens on the published port; the SQLite database and cached feed content live in DockerAppData/yarrdocker/data. There is no built-in login, so keep it on your LAN or protect it with a reverse proxy. Plain HTTP."
+
+[zh-cn]
+name         = "Yarr"
+auth         = "nkanaev"
+version      = "@@VERSION@@"
+descript     = "Yarr 是单二进制的 RSS 阅读器，界面干净：订阅 RSS/Atom、三栏阅读、收藏与搜索，所有内容都存在本地一个 SQLite 数据库里。体积极小、不需要数据库服务，也不在应用数据目录之外写任何东西。"
+release_note = "1. 首个版本：基于 Docker Hub 的 Yarr 2.9，以非 root 容器运行。轻量 RSS/Atom 阅读器，本地 SQLite 存储。"
+important    = "需要 DockerEngine（缺失时应用中心会自动安装）。界面监听已发布端口；SQLite 数据库与缓存内容保存在 DockerAppData/yarrdocker/data。它没有内置登录，请只在内网使用，或用反向代理加一层保护。界面为纯 HTTP。"
+
+[zh-hk]
+name         = "Yarr"
+auth         = "nkanaev"
+version      = "@@VERSION@@"
+descript     = "Yarr 是單一二進位的 RSS 閱讀器，介面乾淨：訂閱 RSS/Atom、三欄閱讀、收藏與搜尋，所有內容都存在本地一個 SQLite 資料庫裡。體積極小、不需要資料庫服務，也不在應用資料目錄之外寫任何東西。"
+release_note = "1. 首個版本：基於 Docker Hub 的 Yarr 2.9，以非 root 容器運行。輕量 RSS/Atom 閱讀器，本地 SQLite 儲存。"
+important    = "需要 DockerEngine（缺少時應用中心會自動安裝）。介面監聽已發佈端口；SQLite 資料庫與快取內容保存在 DockerAppData/yarrdocker/data。它沒有內建登入，請只在內網使用，或用反向代理加一層保護。介面為純 HTTP。"
+
+[fr-fr]
+name         = "Yarr"
+auth         = "nkanaev"
+version      = "@@VERSION@@"
+descript     = "Yarr is a single-binary feed reader with a clean web UI: subscribe to RSS/Atom feeds, read them in a three-pane view, star and search items, and keep everything in one local SQLite database. It is tiny, needs no database server and stores nothing outside the application data folder."
+release_note = "1. First release: Yarr 2.9 from Docker Hub as a non-root container. Lightweight RSS/Atom reader with local SQLite storage."
+important    = "Requires DockerEngine (installed automatically if missing). The UI listens on the published port; the SQLite database and cached feed content live in DockerAppData/yarrdocker/data. There is no built-in login, so keep it on your LAN or protect it with a reverse proxy. Plain HTTP."
+
+[de-de]
+name         = "Yarr"
+auth         = "nkanaev"
+version      = "@@VERSION@@"
+descript     = "Yarr is a single-binary feed reader with a clean web UI: subscribe to RSS/Atom feeds, read them in a three-pane view, star and search items, and keep everything in one local SQLite database. It is tiny, needs no database server and stores nothing outside the application data folder."
+release_note = "1. First release: Yarr 2.9 from Docker Hub as a non-root container. Lightweight RSS/Atom reader with local SQLite storage."
+important    = "Requires DockerEngine (installed automatically if missing). The UI listens on the published port; the SQLite database and cached feed content live in DockerAppData/yarrdocker/data. There is no built-in login, so keep it on your LAN or protect it with a reverse proxy. Plain HTTP."
+
+[it-it]
+name         = "Yarr"
+auth         = "nkanaev"
+version      = "@@VERSION@@"
+descript     = "Yarr is a single-binary feed reader with a clean web UI: subscribe to RSS/Atom feeds, read them in a three-pane view, star and search items, and keep everything in one local SQLite database. It is tiny, needs no database server and stores nothing outside the application data folder."
+release_note = "1. First release: Yarr 2.9 from Docker Hub as a non-root container. Lightweight RSS/Atom reader with local SQLite storage."
+important    = "Requires DockerEngine (installed automatically if missing). The UI listens on the published port; the SQLite database and cached feed content live in DockerAppData/yarrdocker/data. There is no built-in login, so keep it on your LAN or protect it with a reverse proxy. Plain HTTP."
+
+[es-es]
+name         = "Yarr"
+auth         = "nkanaev"
+version      = "@@VERSION@@"
+descript     = "Yarr is a single-binary feed reader with a clean web UI: subscribe to RSS/Atom feeds, read them in a three-pane view, star and search items, and keep everything in one local SQLite database. It is tiny, needs no database server and stores nothing outside the application data folder."
+release_note = "1. First release: Yarr 2.9 from Docker Hub as a non-root container. Lightweight RSS/Atom reader with local SQLite storage."
+important    = "Requires DockerEngine (installed automatically if missing). The UI listens on the published port; the SQLite database and cached feed content live in DockerAppData/yarrdocker/data. There is no built-in login, so keep it on your LAN or protect it with a reverse proxy. Plain HTTP."
+
+[hu-hu]
+name         = "Yarr"
+auth         = "nkanaev"
+version      = "@@VERSION@@"
+descript     = "Yarr is a single-binary feed reader with a clean web UI: subscribe to RSS/Atom feeds, read them in a three-pane view, star and search items, and keep everything in one local SQLite database. It is tiny, needs no database server and stores nothing outside the application data folder."
+release_note = "1. First release: Yarr 2.9 from Docker Hub as a non-root container. Lightweight RSS/Atom reader with local SQLite storage."
+important    = "Requires DockerEngine (installed automatically if missing). The UI listens on the published port; the SQLite database and cached feed content live in DockerAppData/yarrdocker/data. There is no built-in login, so keep it on your LAN or protect it with a reverse proxy. Plain HTTP."
+
+[ja-jp]
+name         = "Yarr"
+auth         = "nkanaev"
+version      = "@@VERSION@@"
+descript     = "Yarr is a single-binary feed reader with a clean web UI: subscribe to RSS/Atom feeds, read them in a three-pane view, star and search items, and keep everything in one local SQLite database. It is tiny, needs no database server and stores nothing outside the application data folder."
+release_note = "1. First release: Yarr 2.9 from Docker Hub as a non-root container. Lightweight RSS/Atom reader with local SQLite storage."
+important    = "Requires DockerEngine (installed automatically if missing). The UI listens on the published port; the SQLite database and cached feed content live in DockerAppData/yarrdocker/data. There is no built-in login, so keep it on your LAN or protect it with a reverse proxy. Plain HTTP."
+
+[ko-kr]
+name         = "Yarr"
+auth         = "nkanaev"
+version      = "@@VERSION@@"
+descript     = "Yarr is a single-binary feed reader with a clean web UI: subscribe to RSS/Atom feeds, read them in a three-pane view, star and search items, and keep everything in one local SQLite database. It is tiny, needs no database server and stores nothing outside the application data folder."
+release_note = "1. First release: Yarr 2.9 from Docker Hub as a non-root container. Lightweight RSS/Atom reader with local SQLite storage."
+important    = "Requires DockerEngine (installed automatically if missing). The UI listens on the published port; the SQLite database and cached feed content live in DockerAppData/yarrdocker/data. There is no built-in login, so keep it on your LAN or protect it with a reverse proxy. Plain HTTP."
+
+[pl-pl]
+name         = "Yarr"
+auth         = "nkanaev"
+version      = "@@VERSION@@"
+descript     = "Yarr is a single-binary feed reader with a clean web UI: subscribe to RSS/Atom feeds, read them in a three-pane view, star and search items, and keep everything in one local SQLite database. It is tiny, needs no database server and stores nothing outside the application data folder."
+release_note = "1. First release: Yarr 2.9 from Docker Hub as a non-root container. Lightweight RSS/Atom reader with local SQLite storage."
+important    = "Requires DockerEngine (installed automatically if missing). The UI listens on the published port; the SQLite database and cached feed content live in DockerAppData/yarrdocker/data. There is no built-in login, so keep it on your LAN or protect it with a reverse proxy. Plain HTTP."
+
+[ru-ru]
+name         = "Yarr"
+auth         = "nkanaev"
+version      = "@@VERSION@@"
+descript     = "Yarr is a single-binary feed reader with a clean web UI: subscribe to RSS/Atom feeds, read them in a three-pane view, star and search items, and keep everything in one local SQLite database. It is tiny, needs no database server and stores nothing outside the application data folder."
+release_note = "1. First release: Yarr 2.9 from Docker Hub as a non-root container. Lightweight RSS/Atom reader with local SQLite storage."
+important    = "Requires DockerEngine (installed automatically if missing). The UI listens on the published port; the SQLite database and cached feed content live in DockerAppData/yarrdocker/data. There is no built-in login, so keep it on your LAN or protect it with a reverse proxy. Plain HTTP."
+
+[tr-tr]
+name         = "Yarr"
+auth         = "nkanaev"
+version      = "@@VERSION@@"
+descript     = "Yarr is a single-binary feed reader with a clean web UI: subscribe to RSS/Atom feeds, read them in a three-pane view, star and search items, and keep everything in one local SQLite database. It is tiny, needs no database server and stores nothing outside the application data folder."
+release_note = "1. First release: Yarr 2.9 from Docker Hub as a non-root container. Lightweight RSS/Atom reader with local SQLite storage."
+important    = "Requires DockerEngine (installed automatically if missing). The UI listens on the published port; the SQLite database and cached feed content live in DockerAppData/yarrdocker/data. There is no built-in login, so keep it on your LAN or protect it with a reverse proxy. Plain HTTP."
+
+[pt-pt]
+name         = "Yarr"
+auth         = "nkanaev"
+version      = "@@VERSION@@"
+descript     = "Yarr is a single-binary feed reader with a clean web UI: subscribe to RSS/Atom feeds, read them in a three-pane view, star and search items, and keep everything in one local SQLite database. It is tiny, needs no database server and stores nothing outside the application data folder."
+release_note = "1. First release: Yarr 2.9 from Docker Hub as a non-root container. Lightweight RSS/Atom reader with local SQLite storage."
+important    = "Requires DockerEngine (installed automatically if missing). The UI listens on the published port; the SQLite database and cached feed content live in DockerAppData/yarrdocker/data. There is no built-in login, so keep it on your LAN or protect it with a reverse proxy. Plain HTTP."
+
+[ar-sa]
+name         = "Yarr"
+auth         = "nkanaev"
+version      = "@@VERSION@@"
+descript     = "Yarr is a single-binary feed reader with a clean web UI: subscribe to RSS/Atom feeds, read them in a three-pane view, star and search items, and keep everything in one local SQLite database. It is tiny, needs no database server and stores nothing outside the application data folder."
+release_note = "1. First release: Yarr 2.9 from Docker Hub as a non-root container. Lightweight RSS/Atom reader with local SQLite storage."
+important    = "Requires DockerEngine (installed automatically if missing). The UI listens on the published port; the SQLite database and cached feed content live in DockerAppData/yarrdocker/data. There is no built-in login, so keep it on your LAN or protect it with a reverse proxy. Plain HTTP."
+
+[cs-cz]
+name         = "Yarr"
+auth         = "nkanaev"
+version      = "@@VERSION@@"
+descript     = "Yarr is a single-binary feed reader with a clean web UI: subscribe to RSS/Atom feeds, read them in a three-pane view, star and search items, and keep everything in one local SQLite database. It is tiny, needs no database server and stores nothing outside the application data folder."
+release_note = "1. First release: Yarr 2.9 from Docker Hub as a non-root container. Lightweight RSS/Atom reader with local SQLite storage."
+important    = "Requires DockerEngine (installed automatically if missing). The UI listens on the published port; the SQLite database and cached feed content live in DockerAppData/yarrdocker/data. There is no built-in login, so keep it on your LAN or protect it with a reverse proxy. Plain HTTP."
+
+[he-il]
+name         = "Yarr"
+auth         = "nkanaev"
+version      = "@@VERSION@@"
+descript     = "Yarr is a single-binary feed reader with a clean web UI: subscribe to RSS/Atom feeds, read them in a three-pane view, star and search items, and keep everything in one local SQLite database. It is tiny, needs no database server and stores nothing outside the application data folder."
+release_note = "1. First release: Yarr 2.9 from Docker Hub as a non-root container. Lightweight RSS/Atom reader with local SQLite storage."
+important    = "Requires DockerEngine (installed automatically if missing). The UI listens on the published port; the SQLite database and cached feed content live in DockerAppData/yarrdocker/data. There is no built-in login, so keep it on your LAN or protect it with a reverse proxy. Plain HTTP."
+
+[id-id]
+name         = "Yarr"
+auth         = "nkanaev"
+version      = "@@VERSION@@"
+descript     = "Yarr is a single-binary feed reader with a clean web UI: subscribe to RSS/Atom feeds, read them in a three-pane view, star and search items, and keep everything in one local SQLite database. It is tiny, needs no database server and stores nothing outside the application data folder."
+release_note = "1. First release: Yarr 2.9 from Docker Hub as a non-root container. Lightweight RSS/Atom reader with local SQLite storage."
+important    = "Requires DockerEngine (installed automatically if missing). The UI listens on the published port; the SQLite database and cached feed content live in DockerAppData/yarrdocker/data. There is no built-in login, so keep it on your LAN or protect it with a reverse proxy. Plain HTTP."
+
+[nb-no]
+name         = "Yarr"
+auth         = "nkanaev"
+version      = "@@VERSION@@"
+descript     = "Yarr is a single-binary feed reader with a clean web UI: subscribe to RSS/Atom feeds, read them in a three-pane view, star and search items, and keep everything in one local SQLite database. It is tiny, needs no database server and stores nothing outside the application data folder."
+release_note = "1. First release: Yarr 2.9 from Docker Hub as a non-root container. Lightweight RSS/Atom reader with local SQLite storage."
+important    = "Requires DockerEngine (installed automatically if missing). The UI listens on the published port; the SQLite database and cached feed content live in DockerAppData/yarrdocker/data. There is no built-in login, so keep it on your LAN or protect it with a reverse proxy. Plain HTTP."
+
+[nl-nl]
+name         = "Yarr"
+auth         = "nkanaev"
+version      = "@@VERSION@@"
+descript     = "Yarr is a single-binary feed reader with a clean web UI: subscribe to RSS/Atom feeds, read them in a three-pane view, star and search items, and keep everything in one local SQLite database. It is tiny, needs no database server and stores nothing outside the application data folder."
+release_note = "1. First release: Yarr 2.9 from Docker Hub as a non-root container. Lightweight RSS/Atom reader with local SQLite storage."
+important    = "Requires DockerEngine (installed automatically if missing). The UI listens on the published port; the SQLite database and cached feed content live in DockerAppData/yarrdocker/data. There is no built-in login, so keep it on your LAN or protect it with a reverse proxy. Plain HTTP."
+
+[sv-se]
+name         = "Yarr"
+auth         = "nkanaev"
+version      = "@@VERSION@@"
+descript     = "Yarr is a single-binary feed reader with a clean web UI: subscribe to RSS/Atom feeds, read them in a three-pane view, star and search items, and keep everything in one local SQLite database. It is tiny, needs no database server and stores nothing outside the application data folder."
+release_note = "1. First release: Yarr 2.9 from Docker Hub as a non-root container. Lightweight RSS/Atom reader with local SQLite storage."
+important    = "Requires DockerEngine (installed automatically if missing). The UI listens on the published port; the SQLite database and cached feed content live in DockerAppData/yarrdocker/data. There is no built-in login, so keep it on your LAN or protect it with a reverse proxy. Plain HTTP."
+
+[th-th]
+name         = "Yarr"
+auth         = "nkanaev"
+version      = "@@VERSION@@"
+descript     = "Yarr is a single-binary feed reader with a clean web UI: subscribe to RSS/Atom feeds, read them in a three-pane view, star and search items, and keep everything in one local SQLite database. It is tiny, needs no database server and stores nothing outside the application data folder."
+release_note = "1. First release: Yarr 2.9 from Docker Hub as a non-root container. Lightweight RSS/Atom reader with local SQLite storage."
+important    = "Requires DockerEngine (installed automatically if missing). The UI listens on the published port; the SQLite database and cached feed content live in DockerAppData/yarrdocker/data. There is no built-in login, so keep it on your LAN or protect it with a reverse proxy. Plain HTTP."
+
+[vi-vn]
+name         = "Yarr"
+auth         = "nkanaev"
+version      = "@@VERSION@@"
+descript     = "Yarr is a single-binary feed reader with a clean web UI: subscribe to RSS/Atom feeds, read them in a three-pane view, star and search items, and keep everything in one local SQLite database. It is tiny, needs no database server and stores nothing outside the application data folder."
+release_note = "1. First release: Yarr 2.9 from Docker Hub as a non-root container. Lightweight RSS/Atom reader with local SQLite storage."
+important    = "Requires DockerEngine (installed automatically if missing). The UI listens on the published port; the SQLite database and cached feed content live in DockerAppData/yarrdocker/data. There is no built-in login, so keep it on your LAN or protect it with a reverse proxy. Plain HTTP."
+
